@@ -1,0 +1,22 @@
+[
+
+    {
+        "firstName": "John",
+        "lastName": "Smith",
+        "age": 28,
+        "favouriteColour": "Green",
+        "isEmployed": true
+
+    },
+
+    {
+
+        "firstName": "Kate",
+        "lastName": "Johnson",
+        "age": 24,
+        "favouriteColour": "Blue",
+        "isEmployed": false
+
+    }
+
+]

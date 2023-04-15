@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <title> My website </title>
+
+    </head>
+
+    <h1> Hello world! </h1>
+
+    <script type="text/javascript">
+
+        let person = `[
+
+        {
+            "firstName": "John",
+            "lastName": "Smith",
+            "age": 28,
+            "favouriteColour": "Green",
+            "isEmployed": true
+    
+        },
+    
+        {
+    
+            "firstName": "Kate",
+            "lastName": "Johnson",
+            "age": 24,
+            "favouriteColour": "Blue",
+            "isEmployed": false
+    
+        }
+    
+    ]`
+    
+    console.log(JSON.parse(person)[0].isEmployed);
+    
+    </script>
+
+
+
+
+</html>
